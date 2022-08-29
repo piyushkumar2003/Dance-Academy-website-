@@ -1,0 +1,42 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+    font-size: 50px;
+}
+.timetable{
+    display: grid;
+    grid-template-columns: repeat(6,223px);
+    position: relative;
+    justify-content: center;
+}
+.period{
+    display: grid;
+    grid-template-columns: repeat(6,223px);
+    position: relative;
+    grid-gap: 1px;
+    text-align: center;
+    justify-content: center;
+}
+.monday,.tuesday,.wednesday,.thursday,.friday,.saturday{
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color:#EEE7CE;
+}
+.days{
+    background-color:#064439;
+    color: #EEE7CE;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,98 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js") 
+
+block style
+    style 
+        include ../static/style.css
+        include ../static/styleclassinfo.css
+
+block content 
+    .container 
+        h1 Class Information
+        div.timetable#tt
+            div.days Monday
+            div.days Tuesday
+            div.days Wednesday
+            div.days Thursday
+            div.days Friday
+            div.days Saturday
+        .period 
+            .monday Beginner Aerial
+                .time 10-11:00 am
+            .tuesday Intermediate Forte
+                .time 10-11:00 am
+            .wednesday Advance Aerial
+                .time 10-11:00 am
+            .thursday Intermediate Forte
+                .time 10-11:00 am
+            .friday Advance Aerial
+                .time 10-11:00 am
+            .saturday Advance Hip-Hop
+                .time 10-11:00 am
+
+            .monday Intermediate Belly
+                .time 11:30-12:30 noon
+            .tuesday Advance Hip-Hop 
+                .time 11:30-12:30 noon
+            .wednesday Beginner Bollywood
+                .time 11:30-12:30 noon
+            .thursday Advance Forte/Acrobats
+                .time 11:30-12:30 noon
+            .friday Advance Belly
+                .time 11:30-12:30 noon
+            .saturday beginner Forte 
+                .time 11:30-12:30 noon
+            
+            .monday Beginner Hip-Hop
+                .time 4-5:00 pm
+            .tuesday beginner Belly 
+                .time 4-5:00 pm
+            .wednesday Intermediate Belly
+                .time 4-5:00 pm
+            .thursday beginner Belly 
+                .time 4-5:00 pm
+            .friday Advance Semi-classical
+                .time 4-5:00 pm
+            .saturday Advance Forte 
+                .time 4-5:00 pm
+            
+            .monday Advance Semi-classical 
+                .time 5:30-6:30 pm
+            .tuesday Intermediate Forte  
+                .time 5:30-6:30 pm
+            .wednesday Advance Forte  
+                .time 5:30-6:30 pm
+            .thursday beginner Forte  
+                .time 5:30-6:30 pm
+            .friday Beginner Hip-Hop 
+                .time 5:30-6:30 pm
+            .saturday Intermediate Forte  
+                .time 5:30-6:30 pm
+
+            .monday beginner Bollywood
+                .time 7-8:00 pm
+            .tuesday Advance Forte/Acrobats
+                .time 7-8:00 pm
+            .wednesday Beginner Semi-classical
+                .time 7-8:00 pm
+            .thursday Intermediate Hip-Hop 
+                .time 7-8:00 pm
+            .friday Advance Forte 
+                .time 7-8:00 pm
+            .saturday beginner Belly 
+                .time 7-8:00 pm
+            
+            .monday Intermediate Forte  
+                .time 8:00-9:00 pm
+            .tuesday beginner Forte   
+                .time 8:00-9:00 pm
+            .wednesday Beginner Hip-Hop  
+                .time 8:00-9:00 pm
+            .thursday Intermediate Forte   
+                .time 8:00-9:00 pm
+            .friday Beginner Bollywood  
+                .time 8:00-9:00 pm
+            .saturday Advance Forte/Acrobats  
+                .time 8:00-9:00 pm

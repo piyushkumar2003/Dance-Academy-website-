@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&family=Mouse+Memoirs&family=Poppins:ital@1&family=Sora:wght@300&display=swap');
+/*font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sora', sans-serif; */
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Sora', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    display: flex;
+    color: #064439;
+    align-items: center;
+    margin: 0 14px;
+    font-weight: bold;
+    position: relative;
+    right: 295px;
+    /* font-family: 'Bree Serif', serif; */
+}
+#logo img{
+    height: 40px;
+    position: absolute;
+    right: 33px;
+}
+#navbar{ 
+    background-color: #EEE7CE;
+    padding: 13px 14px;
+    position: sticky;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    transition: all 0.2s;
+}
+#navbar li:hover{
+    border-radius: 5px;
+    background-color:#ada489;
+
+}
+
+#navbar li a{
+    padding: 7px 20px;
+    color: #064439;
+    font-weight: bold;
+    text-decoration: none;
+} 
+
+
+#introSection{
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #EEE7CE;
+    font-weight: bolder;
+    background: url('https://images.unsplash.com/photo-1505527385992-63e06a393342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80') no-repeat center center/cover;
+    padding-bottom: 100px;
+    /* background-color: blue; */
+}
+#introSection div.small{
+    padding-bottom: 100px;
+    font-size: 35px;
+    color: #EEE7CE;
+}
+#descriptionSection{
+    height: 500px;
+    color: #064439;
+    background-color: #EEE7CE;   
+    display: flex;
+    flex-direction: column;
+}
+#descriptionSection h1{
+    text-align: center;
+    /* font-weight: bolder; */
+    font-size: 40px;
+    padding: 15px;
+}
+#descriptionSection div{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+#descriptionSection a{
+    background-color: #064439; /* Green */
+    color: #EEE7CE;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    /* width: 100px; */
+    margin: auto;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+#descriptionSection a:hover{
+    transform: scale(1.2);
+}
+#whyusSection{
+    height: 670px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+#whyusSection h2{
+    text-align: center;
+    padding: 0px;
+    color:#064439;
+    font-size: 50px;
+}
+#whyusSection h3,p{
+    text-align: center;
+    padding: 20px;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+}
+.card{
+    display: inline-block;
+    background-color:#064439;
+    color: #EEE7CE;
+    border-radius: 3px;
+    width: 29%;
+    margin: 20px 25px;
+    height: 500px;
+}
+#whyusSection a{
+    background-color: #EEE7CE;
+    color:#064439;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 144px;
+
+}
+
+#teacherSection{
+    height: 900px;
+    background-color: #EEE7CE;
+
+}
+.container{
+    display: flex;
+}
+#teacherSection h1{
+    text-align: center;
+    padding: 0px;
+    color:#064439;
+    font-size: 50px;
+    padding: 19px;
+    padding-bottom: 0;
+}
+#teacherSection h2 a{
+    text-align: center;
+    padding: 37px;
+    color: #EEE7CE;
+    text-decoration: none;
+}
+#teacherSection h3{
+    text-align: center;
+    padding: 0px;
+    color: #EEE7CE;
+    font-size: 17px;
+}
+#teacherSection h2{
+    text-align: center;
+    padding: 0px;
+    /* color: #EEE7CE; */
+    /* font-size: 17px; */
+}
+#teacherSection p{
+    text-align: center;
+    padding: 0px;
+    color: #EEE7CE;
+    font-size:24px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.teachers{
+    display: inline-block;
+    background-color:#064439;
+    color: #EEE7CE;
+    border-radius: 3px;
+    width: 42%;
+    margin: 20px 25px;
+    height: 700px;
+    transition: transform 0.2s;
+}
+.teachers img{
+    height: 200px;
+    width: 200px;
+    top: 7px;
+    position: relative;
+    left: 51px;
+    border-radius: 5px;
+}
+.teachers:hover{
+    transform: scale(1.1);
+}
+
+#footer{
+    height: 80px;
+    color: #064439;
+    background-color:#EEE7CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

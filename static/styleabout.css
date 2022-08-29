@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+    margin: 15px;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.container div{
+    margin: 20px;
+    height: 250px;
+    transition: all .2s;
+}
+.container >div:hover{
+    color: #EEE7CE;
+    background-color:#064439 ;
+    transform: scale(1.02);
+}
+
+.person{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.person img{
+    height: 200px;
+    width: 200px;
+    top: 20px;
+    position: relative;
+    left: 27px;
+    border-radius: 5px;
+}
+
+.person div{
+    padding-left: 20px;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+}
+
+.person h3{
+    padding: 38px;
+    padding-right: 0px;
+    padding-top: 65px;
+}

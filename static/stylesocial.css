@@ -1,0 +1,46 @@
+#whyusSection h3, p{
+    text-align: left;
+    padding: 3px;
+    padding-left: 59px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addr p img {
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+}
+img#wsp {
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+}
+
+.addr h1{
+    margin: 59px;
+    margin-bottom: 20px;
+}
+.addr h2{
+    margin: 59px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+
+.container div{
+    display: flex;
+}
+
+#Instgram img{
+    height: 40px;
+}
+#Twitter img{
+    height: 40px;
+}
+#Youtube img{
+    height: 40px;
+}
+#WhatsApp img{
+    height: 40px;
+}
